@@ -253,7 +253,7 @@ with tab_imp:
             key=f"pdf_upload_{st.session_state.reset_counter}",
         )
         if arq is not None:
-            processar_pdf = st.button("Processar PDF", type="primary", use_container_width=True)
+            processar_pdf = st.button("Processar PDF", type="primary")
             if processar_pdf:
                 try:
                     meta, regs = extrair_registros_pdf(arq)
