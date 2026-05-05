@@ -1,0 +1,206 @@
+﻿codigo_restricao;descricao
+300;Falta de conciliação bancária
+301;Falta de remessa do mapa gerencial da dívida ativa
+302;Falta ou atraso de remessa do RMA ou RMB
+303;Falta de remessa do relatório de selos de controle
+304;Falta de remessa do relatório de mercadorias apreendidas
+305;Inconsistência na arrecadação por código de receita x destinação
+306;Apropriação de despesas fora do período de competência
+307;Receitas registradas fora do período
+308;Divergência entre VPA e VPD de cota, repasse e sub-repasse
+309;Divergência entre variações ativas e passivas extraorçamentárias
+310;Classificação indevida de programa de trabalho
+311;UCG órgão incompatível com estrutura formal
+312;Volume significativo de execução orçamentária sem indicação de UGR
+313;Registro de despesa alocada indevidamente à UCG/órgão
+314;Existência de UGR sem vinculação a uma UCG
+315;Falta ou restrição de conformidade dos registros de gestão
+316;Falta ou atraso no cumprimento de diligências
+317;Falta ou registro incompatível - AFAC
+318;Não atendimento à orientação do órgão contábil setorial/central
+319;Falta de registro de restrição ou conformidade dos registros de gestão
+320;Falta de preenchimento da ficha cadastral de obrigação no SIAFI
+321;Falta de atualização de provisão
+322;Falta de registro e/ou inconsistência de centro de custos
+323;Não inclusão de nota explicativa no SIAFIWeb
+538;Saldos de imóveis de uso especial não conferem com SPIUNET
+550;Falta de reconhecimento de passivo
+601;Outros - variações ativas orçamentárias
+602;Falta de registro contábil de débitos e créditos lançados pelo banco
+603;Saldo contábil do almoxarifado não confere com RMA
+604;Falta de atualização de ativos circulantes
+605;Falta de reclassificação para curto prazo de valores de longo prazo - ativos
+606;Saldo alongado ou indevido em contas transitórias do ativo circulante
+607;Outros - ativo circulante
+608;Saldo invertido - ativo circulante
+609;Saldo contábil do almoxarifado não confere com controle
+610;Saque com cartão de pagamento sem liquidação da despesa
+611;Limite de contra-entrega de exercícios anteriores não devolvido
+612;Divergência entre adiantamento de suprimento de fundos e controle orçamentário pago
+613;Desequilíbrio entre rotina AF e PF de precatórios encaminhados
+614;Não uso da vinculação de pagamento 551 - restituição de receita
+615;Falta de atualização de valores do ativo não circulante
+616;Outros - ativo não circulante
+617;Saldo invertido - ativo não circulante
+618;Falta de atualização de informações - dívida ativa LP
+619;Falta de atualização de direito x receita de dívida ativa
+620;Falta de atualização de ajustes para perdas da dívida ativa - CP
+621;Falta de atualização de ajustes para perdas da dívida ativa - LP
+622;Falta de atualização da dívida ativa
+623;Falta de atualização de juros e multas da dívida ativa
+624;Falta de atualização de informações - dívida ativa CP
+625;Falta de registro ou atualização de ajustes para perdas prováveis
+626;Omissão de baixa de valores prescritos - CP
+627;Omissão de baixa de valores prescritos - LP
+628;Saldo invertido - ativo não financeiro - investimentos
+629;Saldo invertido - ativo não financeiro - imobilizado
+630;Saldo invertido - ativo não financeiro - intangível
+631;Saldo alongado ou indevido em contas transitórias do ativo não circulante - investimentos
+632;Saldo alongado ou indevido em contas transitórias do ativo não circulante - imobilizado
+633;Saldo alongado ou indevido em contas transitórias do ativo não circulante - intangível
+634;Falta de avaliação de bens móveis, imóveis, intangíveis ou outros
+635;Falta de registro ou atualização de ajustes para perdas prováveis
+636;Ativo intangível diverge de controles internos
+640;Saldo contábil de bens móveis não confere com RMB
+641;Bens imóveis não classificados como uso especial
+642;Falta ou registro incompatível de depreciação, amortização ou exaustão - ativo imobilizado
+643;Falta ou evolução incompatível da amortização de ativo intangível
+645;Outros - ativo permanente
+647;Valores pendentes SPIUNET a ratificar
+650;Restos a pagar invertidos (sem inscrição)
+651;Falta ou inconsistência no contrato
+652;Saldo invertido - classe 5
+653;Saldo alongado ou indevido em contas de controle
+654;Saldo contábil de selos de controle não confere com RMMA
+655;Saldo contábil de mercadorias apreendidas não confere com RMMA
+656;Convênios a comprovar com data expirada
+657;Convênios a aprovar com data expirada
+658;Outros - ativo compensado
+659;Convênios a liberar expirados
+660;Contrato de repasse a comprovar com data expirada
+661;Contrato de repasse a aprovar com data expirada
+662;Contrato de repasse a liberar expirados
+663;Suprimento de fundos - saque superior ao limite permitido
+664;Termo de parceria a liberar com vigência expirada
+665;Termo de parceria a comprovar com vigência expirada
+666;Termo de parceria a aprovar com vigência expirada
+667;Não fechamento das classes 7 x 8
+668;Acordo de cooperação técnica a comprovar - data expirada
+669;Acordo de cooperação técnica a aprovar - data expirada
+670;Acordo de cooperação técnica a liberar - data expirada
+671;Transferência voluntária sem comprovação e não enviada para inadimplência
+672;Falta de atualização de passivos circulantes
+673;Falta de reclassificação do passivo não circulante para passivo circulante
+674;Saldo alongado ou indevido em contas transitórias do passivo circulante
+675;Outros - passivo circulante
+676;Saldo invertido - passivo circulante
+677;Falta ou atraso na retenção ou recolhimento de obrigações e tributos
+678;Divergência da dívida interna CP
+679;Divergência da dívida externa CP
+680;Divergência entre valores liquidados e passivo financeiro
+681;Regularização indevida de valores recebidos por GRU
+682;Divergência entre títulos da dívida externa e operações de crédito
+683;Regularização indevida de valores de OB canceladas
+684;Falta de atualização de passivo não circulante
+685;Outros - passivo não circulante
+686;Saldo invertido - passivo não circulante
+687;Divergência da dívida interna LP
+688;Divergência da dívida externa LP
+689;Falta de atualização do patrimônio líquido
+690;Divergência entre capital subscrito registrado e o aprovado
+691;Saldos de reservas superiores aos percentuais permitidos
+692;Outros - patrimônio líquido
+693;Saldo invertido - patrimônio líquido
+694;Inconsistências em contas do patrimônio líquido
+695;Não fechamento do grupo passivo compensado x retificadora
+696;Outros - controles credores
+697;Saldo invertido - classe 6
+698;Divergência entre valor registrado na folha e relatórios
+699;Pagamento de despesa com fonte/vinculação indevida
+700;Falta de reclassificação, devolução, baixa ou anulação de suprimento de fundos
+701;Outros - despesas
+702;Apropriação de despesa com valor indevido
+703;Erro na classificação da despesa
+704;Pagamento sem liquidação da despesa
+705;Falta de comprovação e prestação de contas de suprimento de fundos
+706;Despesas do exercício corrente pagas com recursos de restos a pagar
+707;Saldo invertido - classe 8
+708;Comprovação de suprimento de fundos fora do prazo fixado
+709;Concessão de terceiro suprimento de fundos sem comprovação de um dos anteriores
+710;Registro de estorno de despesa indevido (receita)
+711;Receita de fundo classificada como transferência
+712;Outros - receita
+713;Saldos alongados ou indevidos em contas transitórias de receitas
+714;Saldo invertido - classe 7
+715;Erro na classificação da receita
+716;Registro de receita indevido (estorno de despesa)
+717;Divergência entre arrecadação de receita e conta de controle
+718;Outros - variações patrimoniais diminutivas
+719;Saldo alongado ou indevido em contas transitórias do passivo não circulante
+720;Saldo invertido - variações patrimoniais diminutivas
+721;Saldo invertido - variações patrimoniais aumentativas
+722;Divergência entre orçamento no SIAFI e lei/decreto (DOU)
+723;NE indicadas na inscrição de RP x controle por empenho
+724;Divergência entre despesa/receita de transferências estado/município
+725;Divergência entre despesa/receita de transferências município/estado
+726;Divergência entre saldos de exercícios anteriores e do balanço de abertura
+727;Saldos não integrados
+728;Integração de balancete de meses anteriores
+729;Saldos incorretos por erro no processo de integração
+730;Saldos de integração provisórios
+731;Erro ou insuficiência na descrição do campo observação
+732;Outros ingressos - balanço financeiro
+733;Outros dispêndios - balanço financeiro
+734;Outros ingressos - demonstração das disponibilidades financeiras - tipo 5
+735;Outros dispêndios - demonstração das disponibilidades financeiras - tipo 5
+736;Falta de registro de conformidade contábil
+737;Utilização inadequada de eventos/situação CPR
+738;Saldo invertido em contas correntes
+739;Despesa realizada no balanço financeiro incompatível com a demonstração das variações patrimoniais
+740;Receita realizada no balanço financeiro incompatível com o balanço orçamentário
+741;Receita realizada no balanço financeiro incompatível com a demonstração das variações patrimoniais
+742;Saldos invertidos - balanço patrimonial
+743;Desequilíbrio entre totais do ativo e passivo
+744;Desequilíbrio entre as classes
+745;Saldos indevidos e/ou remanescentes no balanço financeiro
+746;Desequilíbrio entre VPA/VPD na demonstração das variações patrimoniais
+747;Demais incoerências - balanço financeiro
+748;Demais incoerências - balanço patrimonial
+749;Demais incoerências - DVP (demonstração das variações patrimoniais)
+750;Demais incoerências - balanço orçamentário
+751;Demais incoerências - demonstração das disponibilidades
+752;Ativo financeiro (-) passivo financeiro - BP x superávit/déficit da demonstração das disponibilidades por fonte de recursos
+753;Saldo invertido - balanço financeiro
+754;Saldos alongados ou indevidos - demonstração das disponibilidades
+755;Saldos alongados ou indevidos em contas transitórias de receitas - BF
+756;Divergência entre limite de RP e disponibilidade de RP
+757;Saldo alongado ou indevido em contas transitórias de receitas - DVP
+758;Saldo alongado ou indevido em contas transitórias de receitas - BO
+759;RP não processados (PF) x retificadora de RP não processados (PNF) - BP
+760;Saldo invertido - demonstração da disponibilidade por fonte de recursos
+761;Inconsistência nos registros da dívida ativa
+762;Inconsistência entre limite vinculado e recursos a liberar
+763;Inconsistência entre valores diferidos recebidos e concedidos
+764;Saldo alongado ou indevido em contas do passivo compensado
+766;Termo de cooperação a liberar - data expirada
+767;Termo de cooperação a comprovar - data expirada
+768;Falta de identificação de beneficiário em controle auxiliar de moradia
+769;Inconsistência entre a inscrição e a execução de RP
+770;Código de destinação da receita de DARF
+771;Demais incoerências - demonstração dos fluxos de caixa (DFC)
+772;Demais incoerências - DDR
+773;TED a comprovar com data expirada
+774;TED a aprovar com data expirada
+775;TED a repassar expirados
+776;Falta de reconhecimento de bens imóveis
+777;Falta de apropriação de custos diretos no ativo imobilizado
+778;Termo de fomento a liberar com vigência expirada
+779;Termo de fomento a comprovar com vigência expirada
+780;Termo de fomento a aprovar com vigência expirada
+781;Erro na classificação da VPD
+782;5º nível - distorção de classificação (AC)
+783;5º nível - distorção de classificação (ANC)
+784;5º nível - distorção de classificação (PC)
+785;5º nível - distorção de classificação (PNC)
+786;5º nível - distorção de classificação (VPD)
+787;5º nível - distorção de classificação (VPA)
