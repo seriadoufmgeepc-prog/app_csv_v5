@@ -252,26 +252,19 @@ with tab_imp:
             type=["pdf"],
             key=f"pdf_upload_{st.session_state.reset_counter}",
         )
-        col_proc, col_reset = st.columns([1, 1])
-        with col_proc:
-            processar_pdf = st.button("Processar PDF", disabled=arq is None, use_container_width=True)
-        with col_reset:
-            reiniciar = st.button(
-                "Reiniciar Sessão",
-                disabled=not st.session_state.get("pdf_processado", False),
-                use_container_width=True,
-            )
-        if reiniciar:
-            reiniciar_sessao()
-        if processar_pdf and arq is not None:
-            try:
-                meta, regs = extrair_registros_pdf(arq)
-                st.session_state.registros = regs
-                st.session_state.meta.update(meta.__dict__)
-                st.session_state.pdf_processado = True
-                st.success(f"PDF processado. {len(regs)} restrições identificadas automaticamente.")
-            except Exception as e:
-                st.error(str(e))
+        if arq is not None:
+            processar_pdf = st.button("Processar PDF", type="primary", use_container_width=True)
+            if processar_pdf:
+                try:
+                    meta, regs = extrair_registros_pdf(arq)
+                    st.session_state.registros = regs
+                    st.session_state.meta.update(meta.__dict__)
+                    st.session_state.pdf_processado = True
+                    st.success(f"PDF processado. {len(regs)} restrições identificadas automaticamente.")
+                except Exception as e:
+                    st.error(str(e))
+        else:
+            st.caption("Anexe um relatório PDF para habilitar o processamento.")
 
     elif origem == "Excel/CSV":
         arq = st.file_uploader("Anexar planilha Excel ou CSV", type=["xlsx", "xls", "csv"], key=f"planilha_upload_{st.session_state.reset_counter}")
