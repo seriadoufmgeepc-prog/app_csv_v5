@@ -58,7 +58,7 @@ streamlit run app.py
 
 ## Premissas adotadas
 
-1. O CSV final segue o layout já existente no aplicativo anterior:
+1. O CSV final segue o layout:
    - Cabeçalho: `H;nível;código responsável;mês; ; ;|`
    - Detalhe: `D;UG;restrição;motivo;providência;valor;|`
    - Totalizador: `T;quantidade;;;;;|`
@@ -73,7 +73,7 @@ Para atualizar a biblioteca de UGs ou a CONRESTCON, substitua os arquivos CSV de
 - `codigo_ug`, `nome_ug`, `situacao`
 - `codigo_restricao`, `descricao`
 
-## Evoluções da versão v3
+## Estrutura Atual
 
 - Filtros por Unidade Gestora (UG), Restrição e busca textual com impacto direto na consulta, grade de edição, edição em lote, capitalização e estatísticas.
 - Capitalização textual com seleção restrita às opções: Primeira letra maiúscula, minúsculas, MAIÚSCULAS e Capitalizar Cada Palavra.
